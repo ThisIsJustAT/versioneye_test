@@ -1,14 +1,16 @@
 {
-  "name": "My Node Module",
+  "name": "MyNodeModule",
   "version": "42.3.1",
   "description": "An example module to illustrate the usage of a package.json",
   "author": "Your Name <you.name@example.org>",
-  "contributors": [{
-    "name": "Foo Bar",
-    "email": "foo.bar@example.com"
-  }],
+  "contributors": [
+    {
+      "name": "Foo Bar",
+      "email": "foo.bar@example.com"
+    }
+  ],
   "bin": {
-	"module-name": "./bin/module-name"
+    "module-name": "./bin/module-name"
   },
   "scripts": {
     "test": "vows --spec --isolate",
@@ -31,12 +33,12 @@
     "browsenpm"
   ],
   "dependencies": {
-    "primus": "*",
-    "async": "~0.8.0",
-    "express": "4.2.x",
-    "winston": "git://github.com/flatiron/winston#master",
-    "bigpipe": "bigpipe/pagelet",
-    "plates": "https://github.com/flatiron/plates/tarball/master"
+    "csv": "^1.1.0",
+    "exceljs": "^0.2.24",
+    "forever": "^0.15.2",
+    "glossy": "^0.1.7",
+    "grunt": "^1.0.0",
+    "sails": "^0.12.13"
   },
   "devDependencies": {
     "vows": "^0.7.0",
@@ -52,4 +54,3 @@
   "analyze": true,
   "license": "MIT"
 }
-
