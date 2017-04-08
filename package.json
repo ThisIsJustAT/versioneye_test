@@ -38,7 +38,8 @@
     "forever": "^0.15.2",
     "glossy": "^0.1.7",
     "grunt": "^1.0.0",
-    "sails": "^0.12.13"
+    "sails": "^0.12.13",
+    "react": "1.3.x"
   },
   "devDependencies": {
     "vows": "^0.7.0",
